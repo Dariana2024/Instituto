@@ -1,0 +1,33 @@
+body{
+    background: rgba(95, 98, 93,.7);
+}
+
+.container{
+     background: rgba(37, 101, 9,.6);
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 60px;
+    width: 50%;
+    height: auto;
+     padding-bottom: 5px;
+    box-shadow: 5px 5px 10px 2px black;
+}
+
+.profe{
+    width: 20%;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.información_profe{
+    margin-bottom: 45px;
+}
+
+
+.texto_profe{
+     font-family: Times New Roman;
+}
+
+svg{
+    margin: 20px;
+}

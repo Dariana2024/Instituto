@@ -1,0 +1,74 @@
+
+
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    opacity: .9;
+    margin-left: auto;
+}
+
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+
+
+.nav-link{
+    transition: all 500ms ease;
+}
+
+.nav-link:hover{
+    transform: translateY(5%);
+    
+}
+
+.navbar-brand{
+    width: 10%;
+}
+
+.tituloo{
+    font-family: Edwardian Script ITC;
+    font-size: 70px;
+}
+
+.matutina{
+   font-size: 30px;
+   font-family: Times New Roman;
+}
+
+
+.modalidades{
+     font-family: Edwardian Script ITC;
+    font-size: 50px;
+}
+
+.card{
+    background: #52c234;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ebfcf , #0ca4c5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-title{
+    font-family: Times New Roman;
+    font-size: 30px;
+}
+
+.card-text{
+    font-family: Times New Roman;
+    font-size: 20px;
+}
+
+.carta{
+    padding-bottom: 20px;
+    
+}
+
+.btn{
+    width: 100%;
+}
+
+
+footer{
+   background: #52c234;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00A1FC , #0079BD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}

@@ -1,0 +1,83 @@
+svg{
+    margin: 10px;
+}
+
+.container{
+    padding-bottom: 40px;
+}
+
+.personal{
+    margin-top: 20px;
+    font-family: Times;
+    background-color: azure;
+}
+
+.imagenPersonal{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.Nombre{
+    font-family: Bell MT;
+    font-size: 30px;
+}
+
+.linea{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.card{
+    box-shadow: 0 5px 20px gray;
+    background: antiquewhite;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.row{
+    justify-content: center;
+}
+
+
+
+
+.lightbox {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+     top: 0;
+    left: 0;
+}
+
+.lightbox:target{
+    display: flex;
+}
+
+.lightbox .contenido{
+    position: relative;
+}
+
+.lightbox img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 8px;
+}
+
+ .cerrar{
+    color: azure;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    padding: 5px 10px;
+    right: -50px;
+    background: rgba(155, 155, 155, 0.8);
+    border-radius: 5px;
+    transition: 500ms;
+}
+
+
